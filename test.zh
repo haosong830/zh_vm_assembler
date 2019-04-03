@@ -1,0 +1,13 @@
+movi ax 1
+movi al 1
+wr 0x800
+isa 1
+xor ax 0
+isa 0
+re 0x800
+movi ax 0
+movi al 65
+isa 1
+sc 0
+isa 0
+exit
