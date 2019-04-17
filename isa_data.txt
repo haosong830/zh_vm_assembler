@@ -1,32 +1,32 @@
-00 nop
-01 movr
-02 movi
-03 addr
-04 addi
-05 subr
-06 subi
-07 jmp
-08 cmp
-09 ja
-10 jb
-11 je
-12 wr
-13 re
-14 exit
-15 isa
-00 push
-01 pop
-02 xor
-03 and
-04 or
-05 not
-06 mul
-07 div
-08 jmpr
-09 sc
-10 null
-11 null
-12 null
-13 null
-14 null
-15 isa
+00 00 nop
+00 01 movr
+01 02 movi
+00 03 addr
+01 04 addi
+00 05 subr
+01 06 subi
+10 07 jmp
+00 08 cmp
+10 09 ja
+10 10 jb
+10 11 je
+10 12 wr
+10 13 re
+00 14 exit
+10 15 isa
+00 00 push
+00 01 pop
+00 02 xor
+00 03 and
+00 04 or
+00 05 not
+00 06 mul
+00 07 div
+10 08 jmpr
+10 09 sc
+00 10 null
+00 11 null
+00 12 null
+00 13 null
+00 14 null
+10 15 isa

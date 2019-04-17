@@ -1,13 +1,11 @@
-movi ax 1
-movi al 1
+movi ax 0x0101
 wr 0x800
-isa 1
-xor ax 0
-isa 0
+xor ax ax
 re 0x800
 movi ax 0
 movi al 65
-isa 1
 sc 0
-isa 0
+movi ax 0xA
+movi cx 0x0
+div ax dx
 exit
