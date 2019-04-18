@@ -7,4 +7,4 @@ $ git clone https://github.com/solanav/zh_vm_assembler
 $ cd zh_vm_assembler
 $ python3 main.py test.zh
 ```
-Output on stdout (terminal) only for now.
+You can drag the resulting bin_out.zhb to the zh_vm executable.
